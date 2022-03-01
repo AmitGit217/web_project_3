@@ -1,0 +1,35 @@
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 8px 0 0 0;
+  padding: 13px 20px;
+  width: 248px;
+  height: 48px;
+  background-color: #0278fe;
+  border-radius: 4px;
+  position: relative;
+  border: none;
+  align-self: flex-start;
+  grid-area: button;
+}
+.frame:hover {
+  background: #0063d2;
+  cursor: pointer;
+}
+.frame:active {
+  transform: scale(0.99);
+}
+.frame__paragraph {
+  position: absolute;
+  width: 208px;
+  height: 22px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #ffffff;
+  margin: 0;
+}

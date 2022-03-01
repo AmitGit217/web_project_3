@@ -4,3 +4,7 @@
 @import url(../blocks/header/__logo.css);
 @import url(../blocks/header/intro.css);
 @import url(../blocks/header/lead.css);
+@import url(../blocks/main/photo-grid.css);
+@import url(../blocks/main/places/places.css);
+@import url(../blocks/main/places/place.css);
+@import url(../blocks/main/places/frame.css);

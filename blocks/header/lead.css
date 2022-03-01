@@ -28,7 +28,7 @@
 }
 .lead__image {
   filter: grayscale(100%);
-  max-width: 984px;
-  max-height: 615px;
+  width: 984px;
+  height: 615px;
   margin: 0 0 92px 0;
 }
