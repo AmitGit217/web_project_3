@@ -4,7 +4,7 @@
   align-items: center;
 }
 .lead__title {
-  margin: 90px 0 0 0;
+  margin: 0 0 32px 0;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -25,10 +25,11 @@
   line-height: 1.2;
   text-align: center;
   color: #ffffff;
+  margin: 0 0 64px 0;
 }
 .lead__image {
   filter: grayscale(100%);
-  width: 984px;
+  width: 100%;
   height: 615px;
   margin: 0 0 92px 0;
 }

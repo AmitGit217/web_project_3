@@ -4,4 +4,8 @@
   font-family: "Inter", sans-serif;
   position: relative;
   max-width: 1280px;
+  height: 100%;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: column;
 }

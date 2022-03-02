@@ -8,3 +8,6 @@
 @import url(../blocks/main/places/places.css);
 @import url(../blocks/main/places/place.css);
 @import url(../blocks/main/places/frame.css);
+@import url(../blocks/main/cover/cover.css);
+@import url(../blocks/main/cover/cover-group.css);
+@import url(../blocks/footer.css);
