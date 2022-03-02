@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: 460px auto;
+  grid-template-columns: 460px 1fr;
   grid-template-rows: auto;
   grid-template-areas:
     "title artist "
