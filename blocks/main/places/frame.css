@@ -22,7 +22,6 @@
   transform: scale(0.99);
 }
 .frame__paragraph {
-  position: absolute;
   width: 208px;
   height: 22px;
   font-family: "Inter", sans-serif;
@@ -32,4 +31,13 @@
   line-height: 22px;
   color: #ffffff;
   margin: 0;
+}
+@media screen and (max-width: 320px) {
+  .frame {
+    order: 3;
+    align-self: center;
+    width: 288px;
+    height: 48px;
+    padding: 13px 40px;
+  }
 }

@@ -33,6 +33,7 @@
   max-height: 615px;
   margin: 0 0 92px 0;
 }
+
 @media screen and (max-width: 768px) {
   .lead {
     max-height: 983px;
@@ -48,5 +49,23 @@
     max-height: 480px;
     width: 100%;
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    width: 288px;
+    padding-bottom: 0;
+  }
+  .lead__title {
+    font-size: 40px;
+    margin: 0 0 16px 0;
+  }
+  .lead__subtitle {
+    font-size: 16px;
+    margin: 0 0 40px 0;
+  }
+  .lead__image {
+    margin: 0 0 64px 0;
   }
 }

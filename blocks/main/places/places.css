@@ -11,3 +11,12 @@
     margin: 0 24px 0 24px;
   }
 }
+@media screen and (max-width: 320px) {
+  .places {
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+    row-gap: 50px;
+    margin: 0;
+    max-width: 320px;
+  }
+}

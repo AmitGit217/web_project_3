@@ -94,3 +94,34 @@
     font-size: 42px;
   }
 }
+@media screen and (max-width: 320px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 320px;
+    row-gap: 30px;
+  }
+  .place__title {
+    order: -1;
+    margin: 0 16px;
+    width: 288px;
+  }
+  .place__website {
+    order: 0;
+    height: 67px;
+    align-self: flex-start;
+    margin-left: 16px;
+  }
+  .place__image {
+    order: 1;
+    max-width: 320px;
+  }
+  .place__paragraph {
+    order: 2;
+    margin: 0 16px;
+  }
+  .place__artist {
+    width: 288px;
+  }
+}

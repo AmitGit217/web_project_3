@@ -58,3 +58,23 @@
 .cover-group__subtitle span {
   display: block;
 }
+
+@media screen and (max-width: 320px) {
+  .cover-group {
+    row-gap: 16px;
+    max-width: 320px;
+  }
+  .cover-group__title {
+    font-size: 32px;
+    height: 35px;
+    max-width: 320px;
+  }
+  .cover-group__subtitle {
+    font-size: 14px;
+    height: 48px;
+  }
+  .cover-group .frame {
+    max-width: 137px;
+    max-height: 48px;
+  }
+}

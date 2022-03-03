@@ -21,3 +21,8 @@
     margin: 88px 0 24px 0;
   }
 }
+@media screen and (max-width: 320px) {
+  .footer {
+    margin: 64px auto 24px auto;
+  }
+}

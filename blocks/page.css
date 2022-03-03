@@ -10,8 +10,14 @@
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 320px) {
+  .page {
+    max-width: 320px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .page {
-    min-width: 768px;
+    max-width: 768px;
   }
 }

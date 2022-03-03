@@ -65,3 +65,21 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .intro__text:nth-child(1) {
+    height: 240px;
+    line-height: 1.25;
+  }
+  .intro__text:nth-child(3) {
+    height: 390px;
+  }
+  .intro {
+    min-height: 868px;
+    margin: 0 16px 90px 16px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+  }
+}
