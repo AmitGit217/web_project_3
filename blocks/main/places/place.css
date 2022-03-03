@@ -79,3 +79,18 @@
 .place__paragraph p:last-of-type {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .place {
+    max-width: 720px;
+    grid-template-columns: 340px 352px;
+    column-gap: 28px;
+  }
+  .place__image {
+    max-width: 340px;
+    max-height: 340px;
+  }
+  .place__title {
+    font-size: 42px;
+  }
+}

@@ -1,7 +1,22 @@
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(284px, auto));
+  grid-template-columns: repeat(4, minmax(auto, 284px));
   gap: 16px;
   padding-bottom: 92px;
-  margin: 0 40px 0 40px;
+  margin: 0 48px 0 48px;
+}
+.photo-grid__item {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 352px);
+    margin: 0 24px 0 24px;
+    padding: 0 0 89px 0;
+    max-width: 720px;
+    max-height: 1104px;
+  }
+  .photo-grid__item {
+    max-height: 264px;
+  }
 }

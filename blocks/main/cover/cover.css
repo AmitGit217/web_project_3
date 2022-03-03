@@ -22,8 +22,19 @@
   margin: 0;
   position: absolute;
   z-index: 0;
-  width: 100%;
 }
 .cover__overlay:hover {
   opacity: 0.8;
+}
+@media screen and (max-width: 768px) {
+  .cover {
+    width: 768px;
+    height: 746px;
+  }
+  .cover__image {
+    height: 746px;
+  }
+  .cover__overlay {
+    height: 746px;
+  }
 }

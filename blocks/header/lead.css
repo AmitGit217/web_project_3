@@ -12,12 +12,12 @@
   line-height: 1.04;
   text-align: center;
   color: #ffffff;
-  width: 793px;
-  height: 200px;
+  max-width: 793px;
+  /* max-height: 200px; */
 }
 .lead__subtitle {
-  width: 720px;
-  height: 72px;
+  max-width: 720px;
+  max-height: 72px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -30,6 +30,23 @@
 .lead__image {
   filter: grayscale(100%);
   width: 100%;
-  height: 615px;
+  max-height: 615px;
   margin: 0 0 92px 0;
+}
+@media screen and (max-width: 768px) {
+  .lead {
+    max-height: 983px;
+    padding-bottom: 88px;
+  }
+  .lead__title {
+    max-width: 720px;
+  }
+  .lead__subtitle {
+    margin: 0 0 36px 0;
+  }
+  .lead__image {
+    max-height: 480px;
+    width: 100%;
+    margin: 0;
+  }
 }
