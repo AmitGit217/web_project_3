@@ -2,14 +2,14 @@
   max-width: 1184px;
   height: 740px;
   position: relative;
-  margin: 92px auto 0 auto;
-
+  margin: 92px 0 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-image: url(../../../images/__background.svg);
   background-size: cover;
+  background-position: center;
 }
 .cover__overlay {
   position: absolute;
@@ -27,17 +27,14 @@
 }
 @media screen and (max-width: 768px) {
   .cover {
-    height: 746px;
-  }
-
-  .cover__overlay {
-    height: 746px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
     height: 254px;
+    max-width: 320px;
   }
 
   .cover__overlay {

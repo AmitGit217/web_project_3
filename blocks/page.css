@@ -1,23 +1,23 @@
 .page {
   background: #2a2c2f;
-  margin: 0 auto;
+  margin: 0;
   font-family: "Inter", sans-serif;
   position: relative;
   width: 100%;
   height: 100%;
-  max-width: 1280px;
+  align-items: center;
   padding-bottom: 24px;
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width: 320px) {
-  .page {
-    max-width: 320px;
-  }
-}
 
 @media screen and (max-width: 768px) {
   .page {
-    width: 768px;
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .page {
+    max-width: 320px;
   }
 }
