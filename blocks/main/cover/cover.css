@@ -3,10 +3,13 @@
   height: 740px;
   position: relative;
   margin: 92px auto 0 auto;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url(../../../images/__background.svg);
+  background-size: cover;
 }
 .cover__overlay {
   position: absolute;
@@ -18,40 +21,25 @@
   transition: 0.5s;
   margin: 0;
 }
-.cover__image {
-  margin: 0;
-  position: absolute;
-  z-index: 0;
-}
+
 .cover__overlay:hover {
   opacity: 0.8;
 }
 @media screen and (max-width: 768px) {
   .cover {
-    width: 768px;
     height: 746px;
-    max-width: 100vw;
   }
-  .cover__image {
-    height: 746px;
-    max-width: 100vw;
-  }
+
   .cover__overlay {
     height: 746px;
-    max-width: 100vw;
   }
 }
+
 @media screen and (max-width: 320px) {
   .cover {
-    max-height: 254px;
-    margin: 0;
-    max-width: 100vw;
-    margin-top: 64px;
-  }
-  .cover__image {
     height: 254px;
-    max-width: 100vw;
   }
+
   .cover__overlay {
     height: 254px;
   }
