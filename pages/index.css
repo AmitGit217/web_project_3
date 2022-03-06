@@ -11,3 +11,12 @@
 @import url(../blocks/main/cover/cover.css);
 @import url(../blocks/main/cover/cover-group.css);
 @import url(../blocks/footer.css);
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}

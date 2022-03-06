@@ -66,6 +66,9 @@
     max-height: 174px;
     margin: 0;
   }
+  .intro__title span {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -82,6 +85,8 @@
   }
 
   .intro__title {
-    font-size: 32px;
+    width: 288px;
+    height: 140px;
+    font-size: 30px;
   }
 }
