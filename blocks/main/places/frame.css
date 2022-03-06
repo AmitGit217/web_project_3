@@ -13,6 +13,12 @@
   align-self: flex-start;
   grid-area: button;
   transition: 0.3s;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
 }
 .frame:hover {
   background: #0063d2;
@@ -21,17 +27,7 @@
 .frame:active {
   transform: scale(0.99);
 }
-.frame__paragraph {
-  width: 208px;
-  height: 22px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  color: #ffffff;
-  margin: 0;
-}
+
 @media screen and (max-width: 320px) {
   .frame {
     order: 3;

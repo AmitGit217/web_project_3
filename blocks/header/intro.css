@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   align-content: flex-start;
-  max-width: 785px;
   height: 490px;
   align-self: flex-start;
+  row-gap: 40px;
 }
 .intro__text-list {
   list-style: none;
@@ -12,16 +12,19 @@
   margin: 0;
 }
 .intro__title {
-  max-width: 785px;
-  max-height: 116px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
-  line-height: 1.07;
+  line-height: 107%;
+  /* or 107% */
   color: #ffffff;
-  margin: 0 0 40px 0;
+  margin: 0;
 }
+.intro__title span {
+  display: block;
+}
+
 .intro__text:nth-child(1) {
   max-width: 720px;
   height: 102px;
