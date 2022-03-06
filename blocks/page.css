@@ -1,8 +1,7 @@
 .page {
   background: #2a2c2f;
-  margin: 0;
+  margin: 0 auto;
   font-family: "Inter", sans-serif;
-  position: relative;
   width: 100%;
   height: 100%;
   align-items: center;
@@ -10,14 +9,8 @@
   display: flex;
   flex-direction: column;
 }
-
-@media screen and (max-width: 768px) {
-  .page {
-    max-width: 768px;
-  }
-}
 @media screen and (max-width: 320px) {
   .page {
-    max-width: 320px;
+    display: block;
   }
 }

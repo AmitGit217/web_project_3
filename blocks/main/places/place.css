@@ -60,6 +60,7 @@
 }
 .place__paragraph {
   display: flex;
+  box-sizing: border-box;
   flex-direction: column;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -84,14 +85,18 @@
   .place {
     max-width: 720px;
     grid-template-columns: 340px 352px;
-    column-gap: 28px;
+    overflow-x: hidden;
   }
   .place__image {
-    max-width: 340px;
-    max-height: 340px;
+    width: 340px;
+    height: 340px;
   }
   .place__title {
     font-size: 42px;
+  }
+  .place__paragraph {
+    font-size: 16px;
+    max-width: 352px;
   }
 }
 @media screen and (max-width: 320px) {
