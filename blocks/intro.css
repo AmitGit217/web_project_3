@@ -27,7 +27,6 @@
 
 .intro__text:nth-child(1) {
   max-width: 720px;
-  height: 102px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -37,7 +36,6 @@
 }
 .intro__text:nth-child(2) {
   max-width: 720px;
-  height: 34px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -49,7 +47,6 @@
 }
 .intro__text:nth-child(3) {
   max-width: 720px;
-  height: 156px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -61,9 +58,9 @@
   .intro {
     margin: 0 24px;
     row-gap: 40px;
+    min-height: 548px;
   }
   .intro__title {
-    max-height: 174px;
     margin: 0;
   }
   .intro__title span {
@@ -73,11 +70,7 @@
 
 @media screen and (max-width: 320px) {
   .intro__text:nth-child(1) {
-    height: 240px;
     line-height: 1.25;
-  }
-  .intro__text:nth-child(3) {
-    height: 390px;
   }
   .intro {
     min-height: 868px;
@@ -86,7 +79,6 @@
 
   .intro__title {
     width: 288px;
-    height: 140px;
     font-size: 30px;
   }
 }
