@@ -85,18 +85,20 @@
   .place {
     max-width: 720px;
     grid-template-columns: 340px 352px;
+    column-gap: 28px;
     overflow-x: hidden;
   }
   .place__image {
-    width: 340px;
-    height: 340px;
+    max-width: 100%;
+    max-height: 340px;
   }
   .place__title {
     font-size: 42px;
+    width: 340px;
   }
   .place__paragraph {
     font-size: 16px;
-    max-width: 352px;
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 320px) {

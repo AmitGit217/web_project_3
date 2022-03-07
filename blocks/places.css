@@ -1,5 +1,5 @@
 .places {
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   row-gap: 80px;
@@ -9,7 +9,6 @@
   .places {
     row-gap: 72px;
     margin: 0 24px 0 24px;
-    max-width: 100%;
   }
 }
 @media screen and (max-width: 320px) {
