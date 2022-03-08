@@ -82,13 +82,12 @@
 @media screen and (max-width: 768px) {
   .place {
     max-width: 720px;
-    grid-template-columns: 340px 352px;
+    grid-template-columns: 1fr 352px;
     column-gap: 28px;
-    overflow-x: hidden;
   }
   .place__image {
-    max-width: 100%;
-    max-height: 340px;
+    width: 340px;
+    height: 340px;
   }
   .place__title {
     font-size: 42px;
@@ -125,6 +124,7 @@
     order: 2;
     margin: 0 16px;
     font-size: 16px;
+    max-width: 288px;
   }
   .place__artist {
     width: 288px;
