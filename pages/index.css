@@ -11,27 +11,3 @@
 @import url(../blocks/place.css);
 @import url(../blocks/places.css);
 @import url(../blocks/footer.css);
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../vendor/Inter/Inter-Regular.woff) format("woff2"),
-    url(../vendor/Inter/Inter-Regular.woff2) format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(../vendor/Inter/Inter-Bold.woff) format("woff2"),
-    url(../vendor/Inter/Inter-Bold.woff2) format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url(../vendor/Inter/Inter-Black.woff) format("woff2"),
-    url(../vendor/Inter/Inter-Black.woff2) format("woff");
-}
