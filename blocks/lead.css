@@ -38,7 +38,7 @@
     padding-bottom: 88px;
   }
   .lead__title {
-    max-width: 720px;
+    font-size: 13vw;
   }
   .lead__subtitle {
     margin: 0 0 36px 0;

@@ -9,7 +9,7 @@
   opacity: 0.8;
 }
 .cover-group__title {
-  width: 656px;
+  max-width: 656px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -19,14 +19,15 @@
   color: #fffdfd;
   margin: 0;
 }
-.cover-group__frame {
+.cover-group__button {
+  text-decoration: none;
   align-self: center;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 13px 20px;
-  width: 137px;
-  height: 48px;
+  max-width: 137px;
+  max-height: 48px;
   background: #0278fe;
   border-radius: 4px;
   margin: 0;
@@ -54,7 +55,10 @@
 .divider {
   display: block;
 }
-
+@media screen and (max-width: 768px) {
+  .cover-group {
+  }
+}
 @media screen and (max-width: 320px) {
   .cover-group {
     row-gap: 16px;

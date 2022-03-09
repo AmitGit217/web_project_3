@@ -1,15 +1,16 @@
-.frame {
+.button {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 48px 0 0 0;
-  width: 248px;
+  max-width: 248px;
   height: 48px;
   background-color: #0278fe;
   border-radius: 4px;
   position: relative;
   border: none;
+  text-decoration: none;
   align-self: flex-start;
   grid-area: button;
   transition: 0.3s;
@@ -19,19 +20,18 @@
   color: #ffffff;
   font-size: 18px;
 }
-.frame:hover {
+.button:hover {
   background: #0063d2;
   cursor: pointer;
 }
-.frame:active {
+.button:active {
   transform: scale(0.99);
 }
 
 @media screen and (max-width: 320px) {
-  .frame {
+  .button {
     order: 3;
     align-self: center;
     width: 288px;
-    padding: 13px 40px;
   }
 }
