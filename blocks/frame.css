@@ -1,10 +1,10 @@
 .frame {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  margin: 0;
+  justify-content: center;
+  align-items: center;
+  margin: 48px 0 0 0;
   width: 248px;
-  padding: 0;
   height: 48px;
   background-color: #0278fe;
   border-radius: 4px;
@@ -13,20 +13,12 @@
   align-self: flex-start;
   grid-area: button;
   transition: 0.3s;
-}
-.frame__paragraph {
-  position: absolute;
-  left: 20px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   color: #ffffff;
   font-size: 18px;
-  align-self: center;
-  min-width: 208px;
-  text-align: left;
 }
-
 .frame:hover {
   background: #0063d2;
   cursor: pointer;
@@ -39,5 +31,7 @@
   .frame {
     order: 3;
     align-self: center;
+    width: 288px;
+    padding: 13px 40px;
   }
 }

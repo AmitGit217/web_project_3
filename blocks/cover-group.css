@@ -1,5 +1,4 @@
 .cover-group {
-  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +19,7 @@
   color: #fffdfd;
   margin: 0;
 }
-.cover-group .frame {
+.cover-group__frame {
   align-self: center;
   display: flex;
   flex-direction: row;
@@ -31,6 +30,14 @@
   background: #0278fe;
   border-radius: 4px;
   margin: 0;
+  border: none;
+  grid-area: button;
+  transition: 0.3s;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
 }
 
 .cover-group__subtitle {
@@ -44,7 +51,7 @@
   text-align: center;
   color: #ffffff;
 }
-.cover-group__subtitle span {
+.divider {
   display: block;
 }
 
@@ -60,7 +67,7 @@
   .cover-group__subtitle {
     font-size: 14px;
   }
-  .cover-group .frame {
+  .cover-group__frame {
     max-width: 137px;
     max-height: 48px;
   }

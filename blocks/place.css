@@ -7,14 +7,14 @@
     "image paragraph"
     "button paragraph "
     ". paragraph";
-  row-gap: 48px;
+
   column-gap: 4%;
 }
 
 .place__title {
   grid-area: title;
   display: flex;
-  margin: 0;
+  margin: 0 0 48px 0;
   align-items: flex-end;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -33,6 +33,7 @@
   display: flex;
   flex-direction: column;
   align-self: flex-end;
+  margin-bottom: 46px;
 }
 .place__url-heading {
   margin: 0 0 8px 0;
@@ -67,14 +68,10 @@
   /* or 29px */
   color: #ffffff;
   grid-area: paragraph;
+  margin: 0 0 25px 0;
 }
-.place__paragraph p {
-  margin-top: 25px;
-}
-.place__paragraph p:first-of-type {
-  margin: 0;
-}
-.place__paragraph p:last-of-type {
+
+.place__paragraph:last-child {
   margin-bottom: 0;
 }
 
@@ -108,7 +105,12 @@
   .place__title {
     order: -1;
     margin: 0 16px;
+    font-family: "Inter";
+    font-style: normal;
     width: 288px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 109%;
   }
   .place__website {
     order: 0;

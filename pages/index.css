@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page.css);
-@import url(../blocks/__logo.css);
+@import url(../blocks/logo.css);
 @import url(../blocks/cover-group.css);
 @import url(../blocks/cover.css);
 @import url(../blocks/frame.css);

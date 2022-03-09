@@ -1,5 +1,5 @@
 .cover {
-  height: 740px;
+  min-height: 740px;
   max-width: 1184px;
   position: relative;
   margin: 92px auto 0 auto;
@@ -14,7 +14,7 @@
 .cover__overlay {
   position: absolute;
   width: 100%;
-  height: 740px;
+  min-height: 740px;
   background: #2a2c2f;
   z-index: 1;
   opacity: 0.3;
@@ -28,17 +28,18 @@
 @media screen and (max-width: 768px) {
   .cover {
     max-width: 768px;
-    margin: 92px 0;
+    margin: 92px 0 0 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    height: 254px;
+    margin: 64px 0;
+    min-height: 254px;
     width: 100vw;
   }
 
   .cover__overlay {
-    height: 254px;
+    min-height: 254px;
   }
 }
