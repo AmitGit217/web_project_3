@@ -52,9 +52,7 @@
   text-align: center;
   color: #ffffff;
 }
-.divider {
-  display: block;
-}
+
 @media screen and (max-width: 768px) {
   .cover-group {
   }

@@ -3,7 +3,7 @@
 @import url(../blocks/logo.css);
 @import url(../blocks/cover-group.css);
 @import url(../blocks/cover.css);
-@import url(../blocks/frame.css);
+@import url(../blocks/button.css);
 @import url(../blocks/header.css);
 @import url(../blocks/intro.css);
 @import url(../blocks/lead.css);
@@ -12,3 +12,4 @@
 @import url(../blocks/places.css);
 @import url(../blocks/footer.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/divider.css);

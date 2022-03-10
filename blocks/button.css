@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   margin: 48px 0 0 0;
-  max-width: 248px;
+  width: 248px;
   height: 48px;
   background-color: #0278fe;
   border-radius: 4px;
@@ -27,11 +27,17 @@
 .button:active {
   transform: scale(0.99);
 }
-
+@media screen and (min-width: 321px) and (max-width: 495px) {
+  .button {
+    order: 3;
+    margin: 0 auto;
+  }
+}
 @media screen and (max-width: 320px) {
   .button {
     order: 3;
     align-self: center;
     width: 288px;
+    margin-top: 0;
   }
 }
