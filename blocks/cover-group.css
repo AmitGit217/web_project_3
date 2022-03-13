@@ -53,10 +53,6 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 768px) {
-  .cover-group {
-  }
-}
 @media screen and (max-width: 320px) {
   .cover-group {
     row-gap: 16px;

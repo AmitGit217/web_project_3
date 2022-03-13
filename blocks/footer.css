@@ -16,7 +16,6 @@
 @media screen and (max-width: 768px) {
   .footer {
     margin: 88px auto 24px auto;
-    vertical-align: top;
   }
 }
 @media screen and (max-width: 320px) {

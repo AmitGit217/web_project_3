@@ -13,7 +13,6 @@
   text-align: center;
   color: #ffffff;
   max-width: 793px;
-  /* max-height: 200px; */
 }
 .lead__subtitle {
   max-width: 720px;
@@ -38,7 +37,7 @@
     padding-bottom: 88px;
   }
   .lead__title {
-    font-size: 13vw;
+    font-size: 54px;
   }
   .lead__subtitle {
     margin: 0 0 36px 0;
