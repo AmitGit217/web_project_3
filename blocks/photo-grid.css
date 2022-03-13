@@ -19,8 +19,7 @@
     max-height: 264px;
   }
 }
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
   .photo-grid {
     display: flex;
     flex-direction: column;
