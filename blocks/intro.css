@@ -1,7 +1,7 @@
 .intro {
   display: flex;
   flex-direction: column;
-  margin: 0 347px 118px 148px;
+  margin: 0 auto 118px 148px;
   max-width: 785px;
 }
 
@@ -55,6 +55,11 @@
   }
   .intro__title {
     margin: 0 0 40px 0;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 600px) {
+  .intro__title {
+    font-size: 35px;
   }
 }
 @media screen and (max-width: 320px) {
