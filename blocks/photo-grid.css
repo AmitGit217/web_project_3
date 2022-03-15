@@ -19,6 +19,34 @@
     max-height: 264px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .photo-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 0 0 62px 0;
+    margin: 0 16px 0 16px;
+  }
+  .photo-grid__item {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .photo-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 0 0 62px 0;
+    margin: 0 16px 0 16px;
+  }
+  .photo-grid__item {
+    height: 230px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .photo-grid {
     display: flex;

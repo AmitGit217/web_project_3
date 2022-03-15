@@ -13,3 +13,6 @@
 @import url(../blocks/footer.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/divider.css);
+html {
+  scroll-behavior: smooth;
+}
