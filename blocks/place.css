@@ -128,7 +128,7 @@
     order: 2;
     margin: 0 16px;
     font-size: 16px;
-    width: 100%;
+    max-width: 100%;
   }
   .place__artist {
     font-size: 18px;
