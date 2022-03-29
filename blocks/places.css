@@ -8,7 +8,7 @@
 @media screen and (max-width: 768px) {
   .places {
     row-gap: 72px;
-    margin: 0 24px 0 24px;
+    margin: 0 auto 0 auto;
   }
 }
 
